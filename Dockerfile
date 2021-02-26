@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM lzzy12/mega-sdk-python:latest
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
@@ -19,3 +19,4 @@ ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
 
 CMD ["bash","start.sh"]
+
